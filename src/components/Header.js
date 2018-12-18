@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   Collapse,
   Navbar,
@@ -7,10 +8,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+ } from 'reactstrap';
 
 class Header extends React.Component {
   constructor(props) {
